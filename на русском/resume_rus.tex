@@ -1,0 +1,149 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[green]{casual}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage[scale=0.8]{geometry}
+
+\usepackage[unicode]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\firstname{Данил}
+\familyname{Кизеев}
+\address{}{Санкт-Петербург, Россия}
+\mobile{+79040283459}
+\email{kizeevdanil@yandex.ru}
+%\extrainfo{Software should be beautiful. Both inside and outside.}
+
+\begin{document}
+	\maketitle
+	
+	\section{Ключевые слова}
+	\cvline
+	{}{python, optimization, machine learning, data science, statistics, numpy, pandas, SQL, PostgreSQL, transformers, matplotlib, pytorch, C++, Rust, NLP.}
+	
+	\section{Опыт}
+	\subsection{Полная занятость}
+	\cventry{2022 Сен -- 2023 Мар}{Разработчик игр @ Точка сборки}{}{Пермь, Россия}{}{
+		Применил генетический алгоритм для построения эффективного матчмейкера для мобильной игры.
+		Создал визуализацию работы как приложение с покадровой отрисовкой, используя движок macroquad и egui. Создал пользовательскую и отладочную камеру для 3D компьтерной игры. Сделал методы рэйкастинга для взаимодействия пользователя с объектами. Язык Rust}
+	\subsection{Частичная занятость}
+	\cventry{2021 Апр -- 2021 Июн}{Data Science стажер}{Под руководством лид DS @ Hyprr}{Санкт-Петербург}{}{
+		Решил задачу автоматической категоризации постов пользователей в социальной сети. Сбор и ручная разметка данных. Использование методов NLP для решения задачи из CV}
+	\section{Образование}
+	\subsection{Университет}
+	\cventry
+	{2021 -- 2023}
+	{Аналитика данных, магистратура}
+	{ИТМО}
+	{}{}{}
+	\cventry
+	{2018 -- 2021}
+	{Прикладная математика и информатика, бакалавриат}
+	{СПбГУ}
+	{}{}{}
+	\cventry
+	{2017 -- 2018}
+	{Компьютерная безопасность, специалитет}
+	{ТвГУ}
+	{}{}{}
+	\subsection{Онлайн-курсы, CSC, YSDA}
+	\cventry
+	{Сен 2022}
+	{NLP курс @ YSDA}
+	{}
+	{}{}{}
+	\cventry
+	{Сен 2022}
+	{Deep CV \& Graphics course @ YSDA}
+	{}
+	{}{}{}
+	\cventry
+	{Сен 2022}
+	{Системное программирование на Rust @ YSDA}
+	{}
+	{}{}{}
+	\cventry
+	{Май 2022}
+	{Математическая статистика @ CSC}
+	{}
+	{}{}{}
+	\cventry
+	{Feb 2021}
+	{Введение в геометрическое программирование}
+	{\newline Решение оптимизационных задач с полиномиальной целевой функцией}
+	{}{\newline\url{https://intuit.ru/verifydiplomas/101428913}}{}
+	\cventry
+	{Июн 2021}
+	{Machine Learning Course}
+	{}
+	{}{\newline\url{https://mlcourse.ai}}{}
+	\cventry
+	{Янв 2020}
+	{Элементы финансовой математики}
+	{}
+	{}{\newline\url{https://intuit.ru/verifydiplomas/101301190}}{}
+	\cventry
+	{Ноя 2018}
+	{Основы программирования и векторизации на R}
+	{}
+	{}{\newline\url{https://stepik.org/course/497}}{}
+	\cventry
+	{Июн 2018}
+	{Алгоритмы: теория и практика. Методы}
+	{}
+	{}{\newline\url{https://stepik.org/course/217}}{}
+	
+	\pagebreak
+	\section{Технические навыки}
+	\cvline
+	{ЯП}{Python, Rust, plpgsql, C/C$++$}
+	\cvline
+	{VCS}{Git}
+	\cvline
+	{OS}{Windows, Linux (Ubuntu)}
+	\section{Проекты}
+	\subsection{Учебные пет проекты}
+	\cvline{Майндкарты для всего}
+	{\url{https://github.com/breadfan/mindmaps-for-everything}\newline{}
+		\textbf{Древовидные диаграммы для объектов}\newline{}
+		Создал майндкарты для лучшего понимания и хранения данных об предметах, связанных с математикой и информатикой (по идеям <<Цеттелькастен>>). 
+		Присутствуют диаграммы по статистике, NLP, оптимизации и глубокому изучению на PyTorch. Карты доступны на \textbf{русском} и \textbf{английском} языках.  
+	}
+	\cvline{Рекомендация музыки на основании текстов песен}
+	{\url{https://github.com/breadfan/lyrics-based-songs-recommender}\newline{}
+		\textbf{Использование doc2vec и BERT эбмбеддингов для рекомендаций основанных на словах.}\newline{}
+		Создал модели с d2v, DistilBERT, снизил размерность эмбеддингов с помощью UMAP Для двумерной и трёхмерной визуализаций (Plotly). Создал бота для модели, используя библиотеку <<telegram>>.
+	}
+	\cvline
+	{Автомат. категоризация постов}
+	{\url{https://github.com/breadfan/Bachelor-Thesis}\newline{}
+		\textbf{Применение BERT для автоматической категоризации постов в социальной сети.} \newline{}
+		Использование моделей BERT, BERTopic и word2vec с TF-IDF для категоризации помеченных изображений/видео.\newline{}
+		Улучшил качество моделей от BERT к word2vec.\newline{}
+		Имея некоторые категории, нужно поставить каждому посту в соответствие категорию для того, чтобы сделать примитивную рекомендательную систему.
+	}
+	\cvline{База данных банка}
+	{\url{https://github.com/breadfan/bank-database}\newline{}
+		\textbf{Используя основные фичи plpgsql создать базу данных для внутренних операций.}\newline{}
+		Создал функции и процедуры для подсчета кредитного процента, римессы, отрицательных счетов.
+		Создал триггеры для добавления новых операций и закрытий счёта. База нормализована по 3 нормальной форме.	  
+	}
+	\cvline
+	{Улучшенный МДМ-метод}
+	{\url{https://github.com/breadfan/Accelerated_MDM_method}\newline{}
+		\textbf{Имплементация и визуализация МДМ-метода}\newline{}
+		В качестве курсовой работы за третий курс были реализованы два метода: МДМ и улучшенный МДМ с визуализации в двумерном и трёхмерном пространствах. Произведено сравнение времени работы алгоритмов.
+	}
+	
+	
+	\subsection{В интернете}
+	
+	\cvline{GitHub}{\url{https://github.com/breadfan}}
+	\cvline{StackOverflow}{\url{https://stackoverflow.com/users/9850300/taciturno}}
+	\cvline{LinkedIn}{\url{https://www.linkedin.com/in/danil-kizeev-57a48bba}}
+	\cvline{LeetCode}{\url{https://leetcode.com/breadfan/} }
+\end{document}
