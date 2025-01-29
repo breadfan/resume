@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.6)  15 JAN 2025 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.6)  29 JAN 2025 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -873,7 +873,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 22.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-6.
+7.
  (D:\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -882,17 +882,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 103.
+nput line 104.
 
 (D:\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-03.
+04.
 
 (D:\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 103.
+nput line 104.
 
 (D:\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
 
@@ -906,7 +906,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 ts/enc/dvips/lm/lm-ec.enc}{D:/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}
 {D:/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{D:/MiKTeX/fonts/enc/dvips/fontawesome
 5/fa5free1.enc}]
-Overfull \hbox (4.07968pt too wide) in paragraph at lines 147--147
+Overfull \hbox (4.07968pt too wide) in paragraph at lines 148--148
  []|[]\T1/lmr/m/n/10.95 (-20) StackOverflow[]|
  []
 
@@ -924,11 +924,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 6AB260E58A603E0ED429875B9B32FF07;1043.
  ) 
 Here is how much of TeX's memory you used:
- 26318 strings out of 474485
- 497380 string characters out of 5760150
- 1962542 words of memory out of 5000000
+ 26308 strings out of 474485
+ 497270 string characters out of 5760150
+ 1960542 words of memory out of 5000000
  48062 multiletter control sequences out of 15000+600000
- 605432 words of font info for 105 fonts, out of 8000000 for 9000
+ 604971 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,12n,129p,1005b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><D:/M
@@ -937,9 +937,9 @@ ts/type1/public/lm/lmbx10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Mi
 KTeX/fonts/type1/public/lm/lmr12.pfb><D:/MiKTeX/fonts/type1/public/lm/lmr17.pfb
 ><D:/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/MiKTeX/fonts/type1/public/lm/l
 mro10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on resume.pdf (2 pages, 256256 bytes).
+Output written on resume.pdf (2 pages, 254357 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  27221 words of extra memory for PDF output out of 29859 (max. 10000000)
 
