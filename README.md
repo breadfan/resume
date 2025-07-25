@@ -1,6 +1,5 @@
 # Curriculum vitae
-Full cv, contains technologies, MOOCs and work experience
-This is my resume, if you call it. There are plenty of my intrests, techno in my workshop and projects. Also there are my contacts (all which I am available on)
+Full cv, contains technologies, MOOCs and work experience + contacts. Feel free to write to me on tg: [t.me/rocauc](https://t.me/rocauc)
 
 Here you can see just demo version: 
 ![preview](https://github.com/breadfan/resume/blob/main/resume_preview.png)
