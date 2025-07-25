@@ -1,0 +1,178 @@
+\documentclass[12pt,a4paper,sans]{moderncv}
+\moderncvtheme[blue]{banking}
+
+\usepackage[scale=0.75]{geometry}
+
+\nopagenumbers{}   
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[T2A]{fontenc}             % кодировка исходного текста
+\usepackage[russian]{babel}
+%\usepackage{lmodern}
+\usepackage[unicode]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+%\usepackage{lmodern}
+\firstname{Данил}
+\familyname{Кизеев}
+\address{Санкт-Петербург, Россия}
+\mobile{+79040283459}
+\email{kizeevdanil@yandex.ru}
+%\extrainfo{Software should be beautiful. Both inside and outside.}
+
+\begin{document}
+\makecvtitle
+
+\section{Технологии}
+\cvline
+{}{python, оптимизация, данные, машинное обучение, computer vision, NLP, статистика, numpy, pandas, PostgreSQL, ClickHouse, scipy, transformers, pytorch, C++, Rust, Docker.}
+\section{Опыт}
+
+\cventry{2023 Окт -- 2025 Фев}{Инженер ИИ}{ЦИТМ Экспонента + Indeepa}{Москва, Россия}{}{Создал: API по аггрегации и обработке данных, поиск оптимальной цены для продавца, поиск конкурентных товаров, выделение трендов и сезонностей, фреймворк разметки.
+	\begin{itemize}
+		\item Сбор данных
+		\begin{itemize}
+			\item Несколько источников: собственный + wb + mpstats;
+			\item Исправление ошибок в процессе сбора; дополнение данных для гладкого временного ряда; проводились необходимые аггрегации в зависимости от места торговли;
+			\item Итог — создание разных комбинаций источников под разные нужды.
+		\end{itemize}
+		\item Поиск конкурентов
+		\begin{itemize}
+			\item Товар переводится в эмбеддинг по изображению, названию и описанию;
+			\item Основа на самообученном CLIP на CC12M+COCO переведённые с помощью Helsinki-NLP, внутри которого ResNet и DistilBERT;
+			\item В качестве развития сделана сиамская сеть с аггрегацией трешхолдов по категории.
+			\item Итог — внедрение в интерфейс SKU потенциальных конкурентов.
+		\end{itemize}
+		\item Поиск оптимальной цены (ДЦО)
+		\begin{itemize}
+			\item Решение с помощью бандитов (MAB + CMAB). Модифицированные UCB и Thompson  sampling;
+			\item Дисконтирование заказов с учётом тренда + сезонности. НС — BiLSTM + Transformers;
+			\item Обучающая выборка — данные продаж + своя модель рынка;
+			\item Модель рынка на распределении Пуассона, линейным смещением для тренда и двух гармониках Фурье для сезонности.
+		\end{itemize}
+		\item Docker + Flask + Gunicorn + Я.Облако для тестов и прода. Выкатка в интерфейс заказчика.
+	\end{itemize}
+}
+
+\cventry{2022 Сен -- 2023 Мар}{Геймдев-инженер}{Точка сборки}{Пермь, Россия}{}{Создание матчмейкера с помощью методов оптимизации — генетический алгоритм и дифференциальная эволюция, кастомные функции кроссинговера и селекции для эвристических метрик (люди с одинаковыми интересами, одна девушка в команде); создание пайплайнов, визуала и API для сбора данных; визуализации на egui и macroquad; язык Rust; создание игрового движка.}
+
+\cventry{2021 Апр -- 2021 Июн}{Стажер Data Science}{Hyprr}{Санкт-Петербург}{}{
+	Автоматическая категоризация постов соц. сети для рекомендательной системы. По тексту (UMAP для сжатия) и изображению из поста получается эмбеддинг (word2vec+tf-idf/BERT + BERTopic), кластеризацией (HDBSCAN, kmeans) с последующим семплингом из категории нового поста определяется похожий и рекомендуется. На второй итерации произведено улучшение (CLIP на ResNet + DistilBERT) для эмбеддинговой части. }
+
+
+
+\section{Образование}
+\subsection{Университет}
+\cventry
+{2023 -- 2025}
+{Аналитика данных, Магистратура}
+{Университет ИТМО, Россия}
+{}{}{}
+\cventry
+{2018 -- 2021}
+{Прикладная математика и информатика, Бакалавриат}
+{Санкт-Петербургский Государственный Университет, СПбГУ, Россия}
+{}{}{}
+\cventry
+{2017 -- 2018}
+{Компьютерная безопасность, Бакалавриат}
+{Тверской Государственный Универсистет, ТвГУ, Россия}
+{}{}{}
+
+
+
+
+%\subsection{Онлайн-курсы}
+%\cventry
+%{Апр 2018 - Июн 2018}
+%{Алгоритмы: Теория и практика. Методы}
+%{}
+%{}{\newline\url{https://stepik.org/course/217}}{}
+%\cventry
+%{Sep 2018 - Nov 2018}
+%{Basics of programming and vectorization with R}
+%{}
+%{}{\newline\url{https://stepik.org/course/497}}{}
+%\cventry
+%{Sep 2019 - Jan 2020}
+%{Elements of financial mathematics}
+%{}
+%{}{\newline\url{https://intuit.ru/verifydiplomas/101301190}}{}
+%\cventry
+%{Июн 2020 - Июн 2021}
+%{Machine Learning Course}
+%{}
+%{}{\newline\url{https://mlcourse.ai}}{}
+%\cventry
+%{Feb 2021 -- Feb 2021}
+%{Introduction in geometric programming}
+%{}
+%{}{\newline\url{https://intuit.ru/verifydiplomas/101428913}}{}
+
+%\cventry
+%{2022}
+%{Математическая статистика @ CSC}
+%{}
+%{}{}{}
+%\cventry
+%{Сен 2022}
+%{NLP course @ YSDA}
+%{}
+%{}{}{}
+%\cventry
+%{Sep 2022}
+%{Deep CV \& Graphics course @ YSDA}
+%{}
+%{}{}{}
+
+
+
+
+
+\section{Проекты}
+\cvline
+{Русско-карельский переводчик}
+{\href{https://github.com/breadfan/kielven_project}{Github}\newline{}
+	Создал первый онлайн-переводчик для ливвиковского наречия на основе NLLB, mBART и Qwen3. Дополнительно сделал телеграм-бота для разметки данных на параллельный корпус. Сбор данных с помощью собственных парсеров сайта, словаря и википедии. На собранном корпусе в 50к получилось побить существующее решение.
+	}
+%\cvline
+%{Ускоренный МДМ-метод}
+%{\href{https://github.com/breadfan/Accelerated_MDM_method}{Github}\newline{}
+%	\textbf{Researching acceleration of an MDM-method}\newline{}
+%	As a course work for third year two methods were implemented: MDM and accelerated MDM methods with visualization for 2- and 3-dim. Cases for running time comparison.}
+
+  \cvline{Mindmaps for everything}
+  {\href{https://github.com/breadfan/mindmaps-for-everything}{Github}\newline{}
+  	Создал майндмапы для лучшего понимания и запоминания предметов (вдохновлялся «Цеттелькастеном»). В репозитории есть мапы для статистики, NLP, оптимизации и глубокого обучения, доступны на русском и английском языках.
+  }
+  \cvline{Рекомендер музыки на основании слов}
+  {\href{https://github.com/breadfan/lyrics-based-songs-recommender}{Github}\newline{}
+  	\textbf{Using doc2vec and BERT embeddings for recommendation based on songs lyrics.}
+  	\newline{}
+  	Создание эмбеддингов на основании doc2vec и DistilBERT для последющих рекомендаций. Визуализация с помощью UMAP и Plotly. Создал телеграм-бота в качестве оболочки.}
+ 
+
+  
+  	
+  
+
+
+%\section{Навыки}
+%\cvline
+%  {Языки}{Python, Rust, plpgsql, C/C$++$}
+%\cvline
+%  {VCS}{Git}
+%\cvline
+%  {OS}{Windows, Linux (Ubuntu)}
+
+
+
+
+ \subsection{Контакты}
+    
+    \cvline{GitHub}{\url{https://github.com/breadfan}}
+    \cvline{StackOverflow}{\url{https://stackoverflow.com/users/9850300/taciturno}}
+    \cvline{LinkedIn}{\url{https://www.linkedin.com/in/rocauc}}
+	\cvline{LeetCode}{\url{https://leetcode.com/breadfan/} }
+	\cvline{Telegram}{\url{https://t.me/rocauc} }
+\end{document}
