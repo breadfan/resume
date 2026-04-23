@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.14)  25 JUL 2025 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.14)  23 APR 2026 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1112,76 +1112,78 @@ LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
 (Font)              using `T2A/cmss/bx/n' instead on input line 26.
 
 
+Overfull \hbox (4.83014pt too wide) in paragraph at lines 28--28
+\T2A/cmss/m/n/12 (-20) computer vision, NLP, ста-ти-сти-ка, numpy, pandas, Post
+greSQL, ClickHouse, scipy, transformers,
+ []
+
+
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
 (Font)              using `T2A/cmss/bx/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 33.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 33.
+
+
+Overfull \hbox (3.01048pt too wide) in paragraph at lines 30--33
+[]| [] 
+ []
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 35.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 35.
+
+
+Overfull \hbox (3.01048pt too wide) in paragraph at lines 34--35
+[]| [] 
+ []
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 39.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 40.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 41.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 45.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 46.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 47.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 48.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+(Font)              using `T2A/cmss/bx/n' instead on input line 52.
 
 
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 55.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 57.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 57.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 60.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 60.
+Overfull \hbox (4.64844pt too wide) in paragraph at lines 52--53
+[]\T2A/cmss/m/n/12 (-20) Решение с по-мо-щью бан-ди-тов (MAB + CMAB). Мо-ди-фи-
+ци-ро-ван-ные UCB и Thompson
+ []
 
 
 
@@ -1194,73 +1196,117 @@ fa5free2.enc}{D:/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{D:/MiKTeX/fonts/enc
 e0.enc}]
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 53.
+
+
+Overfull \hbox (9.65015pt too wide) in paragraph at lines 53--54
+[]\T2A/cmss/m/n/12 (-20) Дисконтирование за-ка-зов с учј-том трен-да + се-зон-н
+о-сти. НС ^^V BiLSTM + Transformers; 
+ []
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 54.
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 55.
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 61.
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 61.
+
+
+Overfull \hbox (3.01048pt too wide) in paragraph at lines 60--61
+| [] 
+ []
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
 (Font)              using `T2A/cmss/bx/n' instead on input line 64.
 
 
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 64.
+
+
+Overfull \hbox (3.01048pt too wide) in paragraph at lines 62--64
+[]| [] 
+ []
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 68.
+
+
 LaTeX Font Warning: Font shape `T2A/cmss/sb/n' undefined
-(Font)              using `T2A/cmss/m/n' instead on input line 65.
+(Font)              using `T2A/cmss/m/n' instead on input line 69.
 
 
-Underfull \hbox (badness 10000) detected at line 65
+Underfull \hbox (badness 10000) detected at line 69
 \T2A/cmss/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 70.
+(Font)              using `T2A/cmss/bx/n' instead on input line 74.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 70.
+(Font)              using `T2A/cmss/bx/n' instead on input line 74.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 75.
+(Font)              using `T2A/cmss/bx/n' instead on input line 79.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 75.
+(Font)              using `T2A/cmss/bx/n' instead on input line 79.
 
 
-Overfull \hbox (19.0118pt too wide) in alignment at lines 75--75
+Overfull \hbox (19.0118pt too wide) in alignment at lines 79--79
 [] [] 
  []
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 80.
+(Font)              using `T2A/cmss/bx/n' instead on input line 84.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 80.
+(Font)              using `T2A/cmss/bx/n' instead on input line 84.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 132.
+(Font)              using `T2A/cmss/bx/n' instead on input line 136.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 137.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 147.
+(Font)              using `T2A/cmss/bx/n' instead on input line 141.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
 (Font)              using `T2A/cmss/bx/n' instead on input line 151.
 
 
-Underfull \hbox (badness 10000) detected at line 170
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 155.
+
+
+Underfull \hbox (badness 10000) detected at line 174
 \T2A/cmss/m/n/8 .
  []
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 172.
+(Font)              using `T2A/cmss/bx/n' instead on input line 175.
 
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-172.
+175.
 (D:\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -1271,19 +1317,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 173.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 174.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/bx/n' instead on input line 175.
-
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
 (Font)              using `T2A/cmss/bx/n' instead on input line 176.
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 177.
+
+
+LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
+(Font)              using `T2A/cmss/bx/n' instead on input line 179.
 
 
 
@@ -1300,13 +1342,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: F06A299F9426FE2CE35254430824BE15;686.
  ) 
 Here is how much of TeX's memory you used:
- 28357 strings out of 473522
- 528068 string characters out of 5731444
- 946258 words of memory out of 5000000
+ 28355 strings out of 473522
+ 528044 string characters out of 5731444
+ 942258 words of memory out of 5000000
  51032 multiletter control sequences out of 15000+600000
- 586392 words of font info for 108 fonts, out of 8000000 for 9000
+ 586285 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,11n,129p,1005b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,11n,129p,1005b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><D:/M
 iKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><D:/MiKTeX/fon
 ts/type1/public/tex-gyre/qplr.pfb><D:/MiKTeX/fonts/type1/public/cm-super/sfsi12
@@ -1317,9 +1359,9 @@ e1/public/cm-super/sfss1095.pfb><D:/MiKTeX/fonts/type1/public/cm-super/sfss1200
 fb><D:/MiKTeX/fonts/type1/public/cm-super/sfsx1728.pfb><D:/MiKTeX/fonts/type1/p
 ublic/cm-super/sfsx2488.pfb><D:/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb
 >
-Output written on resume.pdf (2 pages, 276075 bytes).
+Output written on resume.pdf (2 pages, 278916 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  34877 words of extra memory for PDF output out of 35830 (max. 10000000)
 
